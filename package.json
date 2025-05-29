@@ -1,0 +1,34 @@
+{
+  "name": "bible-api-vercel",
+  "version": "1.0.0",
+  "description": "Bible API with AI-powered search and personalized prayers deployed on Vercel",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step required for Vercel'",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@pinecone-database/pinecone": "^3.0.0",
+    "axios": "^1.9.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "@vercel/node": "^3.0.0"
+  },
+  "keywords": [
+    "bible",
+    "api",
+    "ai",
+    "openai",
+    "pinecone",
+    "prayer",
+    "serverless",
+    "vercel"
+  ],
+  "author": "Bible API Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
